@@ -1,7 +1,13 @@
 import React from 'react';
-import './MainContent.css'; // Make sure to create this CSS file
+import './MainContent.css';
 
 function MainContent() {
+  const events = [
+    'Tech Fest 2025 - June 5',
+    'Workshop on AI - July 10',
+    'Hackathon 2025 - August 1',
+  ];
+
   return (
     <div className="main-content-container">
       <div className="content-section updates">
@@ -14,9 +20,15 @@ function MainContent() {
       <div className="content-section events">
         <h3 className="section-title">Upcoming Events</h3>
         <ul className="events-list">
-          <li className="event-item">Tech Fest 2025 - June 5</li>
-          <li className="event-item">Workshop on AI - July 10</li>
-          <li className="event-item">Hackathon 2025 - August 1</li>
+          {events.map((event, index) => (
+            <li
+              key={index}
+              className="event-item"
+              style={{ '--item-index': index }}
+            >
+              {event}
+            </li>
+          ))}
         </ul>
       </div>
     </div>

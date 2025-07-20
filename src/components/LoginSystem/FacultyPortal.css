@@ -106,6 +106,7 @@
   
   .profile-image-container {
     position: relative;
+    transform: translateY(-20%);
   }
   
   .profile-image-bg {
@@ -122,10 +123,11 @@
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: fill;
     border: 3px solid white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: relative;
+    
   }
   
   .profile-details {
@@ -164,6 +166,13 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    color: rgb(7, 117, 40);
+    border : 1px solid green;
+    border-radius: 20px;
+    margin : 0.8px;
+    background-color: white;
+    padding-left: 5px;
+    align-items: center;
   }
   
   .info-icon {
@@ -200,7 +209,7 @@
   }
   
   .stat-card {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 0.5rem;
     padding: 1.5rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);

@@ -77,7 +77,7 @@ function Payment() {
                 {/* 👉 PLACE TO INSERT QR IMAGE */}
                 <div className="qr-section">
                     <p><strong>Scan QR to Pay:</strong></p>
-                    <img src="/payment_qr.jpg" alt="QR Code" className="qr-image" />
+                    <img src="payment_qr.jpg" alt="QR Code" className="qr-image" />
                 </div>
 
                 <div className="amount">

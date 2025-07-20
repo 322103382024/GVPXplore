@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
 import Login from './components/Login';
 import Register from './components/Register';
+import Attendances from './components/Student/Attendances';
 
 import StudentPage from './components/Student/StudentPage';
 import StudentTodoPage from './components/LoginSystem/StudentTodoPage';
@@ -46,6 +47,7 @@ import DepartmentPage from './components/Faculty_Details/DepartmentPage';
 import FacultyPortfolio from './components/Faculty_Details/FacultyPortfolio';
 import FacultyPortal from './components/LoginSystem/FacultyPortal';
 
+
 import SubjectDashboard from './components/LoginSystem/SubjectDashboard';
 import AttendancePage from './components/LoginSystem/AttendancePage';
 import MarksPage from './components/LoginSystem/MarksPage';
@@ -76,8 +78,8 @@ function App() {
               <Route path="/" element={<MainContent />} />
               <Route path="/about-us" element={<AboutUs />} />
               <Route path="/register" element={<Register />} />
-              <Route path="/student" element={<StudentPage />} />
-              <Route path="/student/todo" element={<StudentTodoPage />} />
+              <Route path="/student-portal" element={<StudentPage />} />
+              {/* <Route path="/student/todo" element={<StudentTodoPage />} /> */}
               <Route path="/administration" element={<Administration />} />
               <Route path="/regulation-syllabi" element={<RegulationAndSyllabiPage />} />
 
@@ -120,6 +122,9 @@ function App() {
               <Route path="/faculty-portal/:subjectId/marks" element={<MarksPage />} />
               <Route path="/faculty-portal/:subjectId/materials" element={<MaterialPage />} />
               <Route path="/faculty-portal/:subjectId/tasks" element={<TasksPage />} />
+
+              <Route path="/student-portal/attendance" element={<Attendances/>}/>
+
 
               {/* Academic Calendar */}
               <Route path="/academic-calendar" element={<AcademicCalendar />} />
