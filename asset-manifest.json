@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/GVPXplore/static/css/main.8b5274eb.css",
-    "main.js": "/GVPXplore/static/js/main.b3a04a67.js",
+    "main.css": "/GVPXplore/static/css/main.da285dcc.css",
+    "main.js": "/GVPXplore/static/js/main.bfc7ddd2.js",
+    "static/media/vasp2.jpg": "/GVPXplore/static/media/vasp2.cfe4a57432424ae447d4.jpg",
     "static/media/viceprincipal.jpg": "/GVPXplore/static/media/viceprincipal.59fd8571937416f9fe0c.jpg",
     "static/media/logo.png": "/GVPXplore/static/media/logo.bdd14e4333a6d6425f21.png",
     "static/media/principal.jpg": "/GVPXplore/static/media/principal.9eee106dd5f331585723.jpg",
+    "static/media/college-logo.png": "/GVPXplore/static/media/college-logo.362f6722003da2ebd8b6.png",
     "index.html": "/GVPXplore/index.html",
-    "main.8b5274eb.css.map": "/GVPXplore/static/css/main.8b5274eb.css.map",
-    "main.b3a04a67.js.map": "/GVPXplore/static/js/main.b3a04a67.js.map"
+    "main.da285dcc.css.map": "/GVPXplore/static/css/main.da285dcc.css.map",
+    "main.bfc7ddd2.js.map": "/GVPXplore/static/js/main.bfc7ddd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b5274eb.css",
-    "static/js/main.b3a04a67.js"
+    "static/css/main.da285dcc.css",
+    "static/js/main.bfc7ddd2.js"
   ]
 }
