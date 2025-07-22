@@ -1,4 +1,5 @@
-﻿```markdown
+
+ ```markdown
 # 🚀 GVPXplore – The Smart Campus Navigator
 
 Welcome to **GVPXplore**, your one-stop digital solution to explore, engage, and experience **Gayatri Vidya Parishad College of Engineering (GVPCE)** like never before! 🌐📱
@@ -110,6 +111,8 @@ npm start
 **Srivatsav** – Final-year CSE student, GVPCE
 
 **Lohit** – Final-year CSE student, GVPCE
+
+**Gokul** -  Final-year CSE student, GVPCE
 Passionate about smart automation, web development, and simplifying student life through tech ❤️
 
 > "Building solutions that make college life smarter, simpler, and accessible to all."
